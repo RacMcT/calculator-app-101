@@ -40,6 +40,27 @@ button{
   padding: 2px;
 }
 
-input{
+number{
   font-size: 2rem;
+}
+
+@media only screen and (max-width:768px){
+  .calulator{
+    min-width: 100vh;
+    min-height: 100vh;
+    margin: 0;
+    justify-content: center;
+  }
+
+  .button{
+    font-size: 1em;
+  }
+
+  h2{
+    padding: 5px;
+  }
+
+  number{
+    font-size: 1em;
+  }
 }
