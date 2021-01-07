@@ -8,10 +8,12 @@ Inside this repo you'll find HTML, CSS, and JS files that come together to build
 1. Use live-server or something similar to serve it and see what's happening in the browser.
 1. Play. Type in two numbers then choose "add" or "subtract" and hit "equal" to see the results.
 1. Go back to the `index.html` file and look at line 14 and 16. Do you see the `onkeyup` Event Listeners? Follow the function they call into the `main.js` file and see if you can figure out what and how they're doing what they're doing.
+**ADD MY ANSWER TO QUESTION**
 1. Check out line 15 in the `main.js` file that tells you about the `parseInt()` function. This just makes sure our numbers are numbers and not text.
 1. Do you see where and how the numbers you typed in the input fields are being saved?
 1. If so, go back to the `index.html` file and find the `onclick` event listeners on the operation buttons. What functions are they calling in the `main.js` file?
 1. How is this function working? Break it down. Ask a friend. Ask a tutor. Ask your instructor. Make sure you understand what is happening in this function before moving on.
+**ADD MY ANSWER TO QUESTION**
 1. After that, make sure each of your `button`s have the same `onclick` attribute as the `add` and `subtract` buttons. Just copy/paste into each. This will allow your operations to be used!
 1. Go back to the web page view of the Calculator and see how it's working. Try adding, subtracting, multiplying, dividing, and modulusing to see what's missing so you can fix it.
 

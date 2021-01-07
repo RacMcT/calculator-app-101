@@ -72,5 +72,10 @@ const equals = () => {
     break;
     default: "Choose an operation"
   }
+  return{
+    'addition': putResultInElement(add(firstNum, secondNum)),
+    'subtraction': putResultInElement(subtract(firstNum, secondNum)),
+    'multiplication': putResultInElement(multiply(firstNum, secondNum)),
+  }[opperation]
 }
 
