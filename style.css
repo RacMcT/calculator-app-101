@@ -1,5 +1,7 @@
 body{
   background-color: rgb(27, 124, 235);
+  display: flex;
+  justify-content: center;
 }
 
 .calculator{
@@ -12,18 +14,17 @@ body{
   font-size: 2rem;
   border: 2px solid black;
   background-color: #d2d3e6;
-  margin-left: 35%;
 }
 
 .calc-buttons-opp{
   cursor: pointer;
-  font-size: 2rem;
+  font-size: 20px;
 
 }
 
 .calc-result-opps{
   cursor: pointer;
-  font-size: 2rem;
+  font-size: 20px;
 }
 
 h2{
@@ -40,20 +41,17 @@ button{
   padding: 2px;
 }
 
-number{
-  font-size: 2rem;
-}
 
 @media only screen and (max-width:768px){
-  .calulator{
-    min-width: 100vh;
-    min-height: 100vh;
-    margin: 0;
+   .calulator{
+    min-width: 100%;
+    min-height: 100%;
+    margin-left: 0px;
     justify-content: center;
   }
 
-  .button{
-    font-size: 1rem;
+  button{
+    font-size: 50%;
   }
 
   h2{
@@ -68,7 +66,7 @@ number{
 @media screen and (max-width: 600px) {
   .calculator{
     min-height: 100vh;
-    font-size: 1rem;
+    font-size: 1em;
   }
 
   h2{
